@@ -7,7 +7,7 @@ public class Polynomial {
     }
 
     public Polynomial(double[] coefficients) {
-        this.coefficients = coefficients;
+        this.coefficients = coefficients.clone();
     }
 
     public Polynomial add(Polynomial polynomial) {
